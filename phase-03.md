@@ -1,8 +1,8 @@
 # Phase 3: Testing a Class
 
 For this next phase, you will be utilizing Chai to test a `Person` class. In the
-__problems__ directory, locate the file named __person.js__, and in the
-__test__ folder, a corresponding __person-spec.js__ file. Work one spec at a
+**problems** directory, locate the file named **person.js**, and in the
+**test** folder, a corresponding **person-spec.js** file. Work one spec at a
 time through the list below using Red, Green, Refactor as you go, and don't
 forget to use [Mocha Hooks][mocha-hooks] to make your specs super DRY!
 
@@ -22,6 +22,7 @@ the code needed to pass those specs.
   argument.
 - `update(obj)` instance method - this method will have two contexts if the
   incoming argument _is_ or _is not_ a valid object.
+
   - A: If the incoming argument is not an object throw a new `TypeError` with a
     clear message
   - B: If the incoming argument is an object then the instance's properties
